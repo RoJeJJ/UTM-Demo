@@ -1,0 +1,720 @@
+11 一月 2016 | 14:12:18,109 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:12:18,115 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:12:18,116 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:12:18,262 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:12:18,272 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@36ab82ff
+11 一月 2016 | 14:12:18,311 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:12:18,327 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:12:18,332 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:12:18,341 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:12:18,347 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:12:18,347 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:12:18,348 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:12:18,348 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:12:18,348 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@53786e77
+11 一月 2016 | 14:12:18,348 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:12:18,349 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:12:18,371 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:12:18,372 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:12:18,374 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:12:18,375 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:12:18,379 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:13:35,775 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:13:35,778 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:13:35,779 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:13:35,918 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:13:35,925 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@5fd04dbd
+11 一月 2016 | 14:13:35,952 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:13:35,964 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:13:35,971 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:13:35,978 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:13:35,981 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:13:35,981 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:13:35,981 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:13:35,981 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:13:35,982 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@cbf5e35
+11 一月 2016 | 14:13:35,982 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:13:35,983 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:13:35,987 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:13:35,987 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:13:35,990 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:13:35,992 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:13:35,995 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:16:43,836 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:16:43,840 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:16:43,841 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:16:43,986 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:16:43,994 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@5cf74477
+11 一月 2016 | 14:16:44,021 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:16:44,035 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:16:44,041 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:16:44,049 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:16:44,052 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:16:44,052 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:16:44,053 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:16:44,053 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:16:44,053 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@580abc00
+11 一月 2016 | 14:16:44,053 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:16:44,054 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:16:44,059 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:16:44,059 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:16:44,062 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:16:44,064 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:16:44,068 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:16:56,874 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:16:56,878 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:16:56,879 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:16:57,023 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:16:57,030 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@5fd04dbd
+11 一月 2016 | 14:16:57,061 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:16:57,075 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:16:57,081 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:16:57,089 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:16:57,091 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:16:57,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:16:57,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:16:57,092 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:16:57,092 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@cbf5e35
+11 一月 2016 | 14:16:57,092 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:16:57,093 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:16:57,099 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:16:57,099 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:16:57,102 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:16:57,103 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:16:57,108 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:20:22,966 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:20:22,969 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:20:22,970 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:20:23,129 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:20:23,139 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@b714ea1
+11 一月 2016 | 14:20:23,170 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:20:23,187 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:20:23,195 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:20:23,205 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:20:23,208 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:20:23,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:20:23,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:20:23,209 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:20:23,210 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@9555419
+11 一月 2016 | 14:20:23,211 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:20:23,212 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:20:23,217 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:20:23,218 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:20:23,223 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:20:23,224 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:20:23,229 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:36:18,916 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:36:18,920 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:36:18,921 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1840MB
+	os.name: Windows 8.1
+	os.arch: amd64
+	os.version: 6.3
+	java.version: 1.7.0_65
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 24.65-b04
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:36:19,040 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:36:19,048 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@18b77860
+11 一月 2016 | 14:36:19,076 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:36:19,091 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:36:19,096 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:36:19,103 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:36:19,106 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:36:19,106 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:36:19,107 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:36:19,107 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:36:19,107 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@313a6b9
+11 一月 2016 | 14:36:19,107 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:36:19,108 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:36:19,112 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:36:19,113 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:36:19,116 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:36:19,119 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:36:19,121 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:42:31,959 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:42:31,963 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:42:31,965 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1839MB
+	os.name: Windows 8
+	os.arch: amd64
+	os.version: 6.2
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:42:32,076 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:42:32,083 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@a8a47d9
+11 一月 2016 | 14:42:32,104 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:42:32,113 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:42:32,118 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:42:32,123 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@1f28706
+11 一月 2016 | 14:42:32,126 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:42:32,127 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:42:32,136 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:42:32,136 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:42:32,140 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:42:32,145 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:42:32,151 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]
+11 一月 2016 | 14:43:03,353 | INFO  | main | bootLogger |     | SmartFoxServer 2X
+11 一月 2016 | 14:43:03,356 | INFO  | main | bootLogger |     | BitSwarmEngine version: 3.30.1 { main }
+11 一月 2016 | 14:43:03,357 | INFO  | main | bootLogger |     | System Info:
+	Processor(s): 4
+	VM Max. memory: 1839MB
+	os.name: Windows 8
+	os.arch: amd64
+	os.version: 6.2
+	java.version: 1.7.0_21
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.7
+	java.vm.version: 23.21-b01
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\Daemon\AppData\Local\Temp\
+	Default charset: UTF-8
+
+11 一月 2016 | 14:43:03,464 | INFO  | main | bootLogger |     | Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: Bluetooth Device (RFCOMM Protocol TDI)
+	Card: Intel(R) 82579LM Gigabit Network Connection
+		 ->192.168.1.100
+		 ->fe80:0:0:0:a8b7:5b68:216b:9895%3
+	Card: WAN Miniport (IP)
+	Card: Microsoft Kernel Debug Network Adapter
+	Card: Microsoft ISATAP Adapter #3
+	Card: Microsoft ISATAP Adapter #4
+	Card: WAN Miniport (PPPOE)
+	Card: Microsoft ISATAP Adapter
+	Card: Microsoft Wi-Fi Direct Virtual Adapter
+		 ->fe80:0:0:0:85c:f985:b2f5:a6bb%10
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (Network Monitor)
+	Card: Bluetooth Device (Personal Area Network)
+	Card: Intel(R) Centrino(R) Wireless-N 2200
+		 ->fe80:0:0:0:4800:5fe8:a64e:f52a%14
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:5ef5:79fd:88f:46a0:48d8:8b28
+		 ->fe80:0:0:0:88f:46a0:48d8:8b28%16
+	Card: Microsoft Hosted Network Virtual Adapter
+	Card: WAN Miniport (L2TP)
+	Card: Microsoft ISATAP Adapter #2
+		 ->fe80:0:0:0:0:5efe:c0a8:164%19
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (IPv6)
+	Card: TAP-Windows Adapter V9
+		 ->fe80:0:0:0:25ab:21c5:c8a5:54cb%22
+	Card: TAP-Windows Adapter V9-WFP Native MAC Layer LightWeight Filter-0000
+	Card: TAP-Windows Adapter V9-QoS Packet Scheduler-0000
+	Card: TAP-Windows Adapter V9-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+	Card: Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Virtual WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-Native WiFi Filter Driver-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-QoS Packet Scheduler-0000
+	Card: Intel(R) Centrino(R) Wireless-N 2200-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+	Card: Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+
+11 一月 2016 | 14:43:03,470 | INFO  | main | bootLogger |     | Session manager ready: com.smartfoxserver.bitswarm.sessions.DefaultSessionManager@384edd2c
+11 一月 2016 | 14:43:03,491 | INFO  | main | bootLogger |     | TCP Selector opened
+11 一月 2016 | 14:43:03,501 | INFO  | main | bootLogger |     | UDP Selector opened
+11 一月 2016 | 14:43:03,505 | INFO  | main | bootLogger |     | AcceptSelector opened
+11 一月 2016 | 14:43:03,512 | INFO  | main | bootLogger |     | Added bound tcp socket --> 0.0.0.0:9955
+11 一月 2016 | 14:43:03,514 | INFO  | main | bootLogger |     | Added bound udp socket --> 127.0.0.1:9955
+11 一月 2016 | 14:43:03,514 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SystemReqController 
+11 一月 2016 | 14:43:03,514 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.SmasherReqController 
+11 一月 2016 | 14:43:03,514 | INFO  | main | bootLogger |     | Controller started: com.smartfoxserver.v2.controllers.v290.ExtensionReqController 
+11 一月 2016 | 14:43:03,514 | INFO  | main | bootLogger |     | IOHandler: com.smartfoxserver.v2.protocol.SFSIoHandler@332933cb
+11 一月 2016 | 14:43:03,515 | INFO  | main | bootLogger |     | SocketReader started
+11 一月 2016 | 14:43:03,515 | INFO  | main | bootLogger |     | SocketAcceptor initialized
+11 一月 2016 | 14:43:03,523 | INFO  | main | bootLogger |     | Socket Writer started (pool size:3)
+11 一月 2016 | 14:43:03,524 | INFO  | main | bootLogger |     | DatagramReader started
+11 一月 2016 | 14:43:03,527 | INFO  | Scheduler1-thread-1 | bootLogger |     | Scheduler started: scheduler
+11 一月 2016 | 14:43:03,529 | INFO  | main | bootLogger |     | Security Manager started
+11 一月 2016 | 14:43:03,533 | INFO  | main | bootLogger |     | [[[ ===--- Boot sequence complete ---=== ]]]

@@ -1,0 +1,285 @@
+18 十一月 2015 | 10:59:10,655 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 10:59:10,667 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 10:59:11,196 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 10:59:11,228 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\windows\TEMP\vfs_cache" as temporary files store.
+18 十一月 2015 | 10:59:11,292 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 10:59:11,293 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 10:59:11,293 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+18 十一月 2015 | 10:59:11,301 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 10:59:11,303 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 10:59:11,340 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 10:59:11,384 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 10:59:11,393 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 10:59:11,402 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 10:59:11,623 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 10:59:11,625 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 10:59:11,626 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 10:59:13,276 | WARN  | main | util.resource.FileResource |     | bad alias for C:\Program Files\SmartFoxServer_2X\SFS2X\.\:lib\*:lib\jetty\lib\*:extensions\__lib__\*: java.io.IOException: 文件名、目录名或卷标语法不正确。
+18 十一月 2015 | 10:59:13,436 | WARN  | main | util.resource.FileResource |     | bad alias for C:\Program Files\SmartFoxServer_2X\SFS2X\.\:lib\*:lib\jetty\lib\*:extensions\__lib__\*: java.io.IOException: 文件名、目录名或卷标语法不正确。
+18 十一月 2015 | 10:59:13,600 | WARN  | main | util.resource.FileResource |     | bad alias for C:\Program Files\SmartFoxServer_2X\SFS2X\.\:lib\*:lib\jetty\lib\*:extensions\__lib__\*: java.io.IOException: 文件名、目录名或卷标语法不正确。
+18 十一月 2015 | 10:59:15,152 | WARN  | main | util.resource.FileResource |     | bad alias for C:\Program Files\SmartFoxServer_2X\SFS2X\.\:lib\*:lib\jetty\lib\*:extensions\__lib__\*: java.io.IOException: 文件名、目录名或卷标语法不正确。
+18 十一月 2015 | 10:59:15,451 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.0.0) ready.
+18 十一月 2015 | 10:59:15,458 | WARN  | main | util.resource.FileResource |     | bad alias for C:\Program Files\SmartFoxServer_2X\SFS2X\.\:lib\*:lib\jetty\lib\*:extensions\__lib__\*: java.io.IOException: 文件名、目录名或卷标语法不正确。
+18 十一月 2015 | 11:09:52,855 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 11:09:52,867 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 11:09:53,517 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 11:09:53,553 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 11:09:53,635 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 11:09:53,637 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 11:09:53,638 | INFO  | main | entities.managers.SFSBannedUserManager |     | No BannedUser data available, starting with a clean DB.
+18 十一月 2015 | 11:09:53,649 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 11:09:53,653 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 11:09:53,707 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 11:09:53,751 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 11:09:53,763 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 11:09:53,775 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 11:09:53,976 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+18 十一月 2015 | 11:09:53,979 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 11:09:53,980 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 11:09:54,220 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+18 十一月 2015 | 11:09:54,229 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+18 十一月 2015 | 11:09:54,275 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+18 十一月 2015 | 11:16:24,134 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 11:16:24,149 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 11:16:24,804 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 11:16:24,837 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 11:16:24,921 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 11:16:24,923 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 11:16:24,944 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 11:16:24,957 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 11:16:24,961 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 11:16:25,017 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 11:16:25,058 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 11:16:25,071 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 11:16:25,084 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 11:16:25,291 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 11:16:25,292 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 11:16:25,294 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 11:16:25,523 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+18 十一月 2015 | 11:16:25,530 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+18 十一月 2015 | 11:16:25,545 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+18 十一月 2015 | 11:18:41,260 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 11:18:41,274 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 11:18:42,018 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 11:18:42,067 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 11:18:42,167 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 11:18:42,170 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 11:18:42,196 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 11:18:42,210 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 11:18:42,214 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 11:18:42,286 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 11:18:42,350 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 11:18:42,365 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 11:18:42,383 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 11:18:42,615 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 11:18:42,617 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 11:18:42,618 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 11:18:42,889 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+18 十一月 2015 | 11:18:42,903 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+18 十一月 2015 | 11:18:42,907 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+18 十一月 2015 | 11:24:05,400 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 11:24:05,414 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 11:24:06,106 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 11:24:06,144 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 11:24:06,229 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 11:24:06,231 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 11:24:06,251 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 11:24:06,264 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 11:24:06,269 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 11:24:06,319 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 11:24:06,367 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 11:24:06,379 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 11:24:06,393 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 11:24:06,601 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 11:24:06,602 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 11:24:06,604 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 11:24:52,901 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 11:24:52,910 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 11:24:53,553 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 11:24:53,590 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 11:24:53,672 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 11:24:53,674 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 11:24:53,695 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 11:24:53,707 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 11:24:53,710 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\BasicExamples.zone.xml
+18 十一月 2015 | 11:24:53,767 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: BasicExamples 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 11:24:53,814 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: BasicExamples }, [ Room: The Lobby, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 11:24:53,825 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 1, Group: default, isGame: false ]
+18 十一月 2015 | 11:24:53,842 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 11:24:54,042 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+18 十一月 2015 | 11:24:54,044 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 11:24:54,045 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 11:55:06,613 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+18 十一月 2015 | 11:55:06,613 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+18 十一月 2015 | 11:55:06,613 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0
+18 十一月 2015 | 11:55:54,051 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: --=={{{ AdminZone }}}==-- }, CCU: 0/0
+18 十一月 2015 | 11:55:54,051 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: { Zone: BasicExamples }, CCU: 0/0
+18 十一月 2015 | 11:55:54,051 | INFO  | pool-1-thread-4 | util.stats.CCULoggerTask |     | CCU stats: CCU: 0/0

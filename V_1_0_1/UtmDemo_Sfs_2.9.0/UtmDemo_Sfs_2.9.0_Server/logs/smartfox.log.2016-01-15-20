@@ -1,0 +1,59 @@
+15 一月 2016 | 20:43:17,852 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+15 一月 2016 | 20:43:17,885 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+15 一月 2016 | 20:43:18,986 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+15 一月 2016 | 20:43:19,071 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+15 一月 2016 | 20:43:19,256 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+15 一月 2016 | 20:43:19,259 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+15 一月 2016 | 20:43:19,289 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+15 一月 2016 | 20:43:19,307 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+15 一月 2016 | 20:43:19,312 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+15 一月 2016 | 20:43:19,390 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+15 一月 2016 | 20:43:19,547 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+15 一月 2016 | 20:43:19,564 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+15 一月 2016 | 20:43:19,835 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+15 一月 2016 | 20:43:19,837 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+15 一月 2016 | 20:43:19,837 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+15 一月 2016 | 20:43:23,466 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.0.0) ready.
+15 一月 2016 | 20:43:44,501 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13524 } on Server port: 9933 <---> 13524
+15 一月 2016 | 20:43:46,675 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: 1, Id: 0, Priv: 0, Sess: 127.0.0.1:13524 ) , Type: Android
+15 一月 2016 | 20:43:53,747 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13524 }
+15 一月 2016 | 20:43:53,748 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+15 一月 2016 | 20:43:53,749 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: 1, Id: 0, Priv: 0, Sess: 127.0.0.1:13524 ) , SessionLen: 7073, Type: Android
+15 一月 2016 | 20:44:29,070 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13533 } on Server port: 9933 <---> 13533
+15 一月 2016 | 20:44:29,176 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: 1, Id: 1, Priv: 0, Sess: 127.0.0.1:13533 ) , Type: Android
+15 一月 2016 | 20:44:31,820 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13533 }
+15 一月 2016 | 20:44:31,821 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+15 一月 2016 | 20:44:31,822 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: 1, Id: 1, Priv: 0, Sess: 127.0.0.1:13533 ) , SessionLen: 2646, Type: Android
+15 一月 2016 | 20:45:30,513 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13548 } on Server port: 9933 <---> 13548
+15 一月 2016 | 20:45:30,625 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: 1, Id: 2, Priv: 0, Sess: 127.0.0.1:13548 ) , Type: Android
+15 一月 2016 | 20:45:32,269 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13548 }
+15 一月 2016 | 20:45:32,273 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+15 一月 2016 | 20:45:32,274 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: 1, Id: 2, Priv: 0, Sess: 127.0.0.1:13548 ) , SessionLen: 1650, Type: Android

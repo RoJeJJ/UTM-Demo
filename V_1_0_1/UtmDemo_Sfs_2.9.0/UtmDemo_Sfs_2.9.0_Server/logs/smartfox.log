@@ -1,0 +1,139 @@
+13 三月 2016 | 16:14:57,730 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.0.0) ready.
+13 三月 2016 | 16:15:10,058 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+13 三月 2016 | 16:15:10,068 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+13 三月 2016 | 16:15:10,686 | WARN  | main | smartfoxserver.v2.SmartFoxServer |     | Error [001] occurred; please send the error code to support@smartfoxserver.com. If you are using an IP-bound license, please also send your license file, otherwise send your license code
+13 三月 2016 | 16:15:10,783 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+13 三月 2016 | 16:15:10,904 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+13 三月 2016 | 16:15:10,906 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+13 三月 2016 | 16:15:10,925 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+13 三月 2016 | 16:15:10,940 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+13 三月 2016 | 16:15:10,944 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+13 三月 2016 | 16:15:10,998 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+13 三月 2016 | 16:15:11,088 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+13 三月 2016 | 16:15:11,102 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+13 三月 2016 | 16:15:11,290 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+13 三月 2016 | 16:15:11,291 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+13 三月 2016 | 16:15:11,292 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+13 三月 2016 | 16:15:13,735 | INFO  | main | bluebox.v3.SessionFilter |     | BlueBox-2X Service (3.0.0) ready.
+13 三月 2016 | 16:15:26,567 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+13 三月 2016 | 16:15:26,579 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+13 三月 2016 | 16:15:27,212 | WARN  | main | smartfoxserver.v2.SmartFoxServer |     | Error [001] occurred; please send the error code to support@smartfoxserver.com. If you are using an IP-bound license, please also send your license file, otherwise send your license code
+13 三月 2016 | 16:15:27,294 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+13 三月 2016 | 16:15:27,408 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+13 三月 2016 | 16:15:27,411 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+13 三月 2016 | 16:15:27,428 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+13 三月 2016 | 16:15:27,441 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+13 三月 2016 | 16:15:27,444 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+13 三月 2016 | 16:15:27,496 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+13 三月 2016 | 16:15:27,589 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+13 三月 2016 | 16:15:27,605 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+13 三月 2016 | 16:15:27,790 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: 
+13 三月 2016 | 16:15:27,791 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+13 三月 2016 | 16:15:27,791 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+13 三月 2016 | 16:15:30,277 | INFO  | Thread-0 | entities.managers.SFSZoneManager |     | BuddyList saveAll...
+13 三月 2016 | 16:15:30,280 | WARN  | SFS2X ShutdownHook | v2.core.SFSShutdownHook |     | SFS2X is shutting down. The process may take a few seconds...
+13 三月 2016 | 16:15:30,285 | INFO  | Thread-1 | entities.managers.SFSBannedUserManager |     | BanUser data saved.
+13 三月 2016 | 16:15:37,556 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+13 三月 2016 | 16:15:37,569 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+13 三月 2016 | 16:15:38,188 | WARN  | main | smartfoxserver.v2.SmartFoxServer |     | Error [001] occurred; please send the error code to support@smartfoxserver.com. If you are using an IP-bound license, please also send your license file, otherwise send your license code
+13 三月 2016 | 16:15:38,269 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+13 三月 2016 | 16:15:38,381 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+13 三月 2016 | 16:15:38,383 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+13 三月 2016 | 16:15:38,401 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+13 三月 2016 | 16:15:38,414 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+13 三月 2016 | 16:15:38,418 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+13 三月 2016 | 16:15:38,474 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+13 三月 2016 | 16:15:38,566 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+13 三月 2016 | 16:15:38,579 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+13 三月 2016 | 16:15:38,773 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+13 三月 2016 | 16:15:38,774 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+13 三月 2016 | 16:15:38,775 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+13 三月 2016 | 16:15:42,503 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:8640 } on Server port: 9933 <---> 8640
+13 三月 2016 | 16:15:44,320 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: 1, Id: 0, Priv: 0, Sess: 127.0.0.1:8640 ) , Type: Android
+13 三月 2016 | 16:17:07,370 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:8640 }
+13 三月 2016 | 16:17:07,372 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: 1, Id: 0, Priv: 0, Sess: 127.0.0.1:8640 ) , SessionLen: 83053, Type: Android
+13 三月 2016 | 16:17:07,373 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]

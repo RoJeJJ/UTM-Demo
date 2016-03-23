@@ -1,0 +1,642 @@
+18 十一月 2015 | 19:00:52,825 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:00:52,837 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:00:53,480 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:00:53,512 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:00:53,595 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:00:53,598 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:00:53,621 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:00:53,639 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:00:53,644 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:00:53,741 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:00:53,842 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:00:53,851 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:00:54,057 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:00:54,060 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:00:54,060 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:01:03,242 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7129 } on Server port: 9933 <---> 7129
+18 十一月 2015 | 19:01:03,362 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:01:03,387 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7129 ) , Type: Android
+18 十一月 2015 | 19:01:19,131 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7129 }
+18 十一月 2015 | 19:01:19,131 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:01:19,133 | INFO  | SFSWorker:Sys:3 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7129 ) , SessionLen: 15747, Type: Android
+18 十一月 2015 | 19:01:19,134 | WARN  | SFSWorker:Ext:1 | extensions.filter.SFSExtensionFilterChain |     | Exception in FilterChain execution:java.lang.NullPointerException --- Filter: SynchronousControl, Event: { USER_DISCONNECT, Params: [ZONE, PLAYER_IDS_BY_ROOM, USER, DISCONNECTION_REASON, JOINED_ROOMS] }, Ext: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
+18 十一月 2015 | 19:02:05,557 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7157 } on Server port: 9933 <---> 7157
+18 十一月 2015 | 19:02:09,401 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:02:32,267 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:02:32,278 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:02:32,915 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:02:32,948 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:02:33,028 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:02:33,030 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:02:33,047 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:02:33,059 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:02:33,063 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:02:33,114 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:02:33,189 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:02:33,199 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:02:33,394 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:02:33,395 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:02:33,395 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:02:39,310 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7181 } on Server port: 9933 <---> 7181
+18 十一月 2015 | 19:02:41,690 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:02:41,705 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7181 ) , Type: Android
+18 十一月 2015 | 19:02:48,728 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7181 }
+18 十一月 2015 | 19:02:48,728 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:02:48,730 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7181 ) , SessionLen: 7026, Type: Android
+18 十一月 2015 | 19:02:59,993 | WARN  | SFSWorker:Ext:2 | extensions.filter.SFSExtensionFilterChain |     | Exception in FilterChain execution:java.lang.NullPointerException --- Filter: SynchronousControl, Event: { USER_DISCONNECT, Params: [ZONE, DISCONNECTION_REASON, JOINED_ROOMS, USER, PLAYER_IDS_BY_ROOM] }, Ext: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
+18 十一月 2015 | 19:21:48,816 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:21:48,826 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:21:49,479 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:21:49,515 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:21:49,599 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:21:49,603 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:21:49,623 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:21:49,640 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:21:49,645 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:21:49,733 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:21:49,816 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:21:49,830 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:21:50,058 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:21:50,060 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:21:50,061 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:21:53,145 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7711 } on Server port: 9933 <---> 7711
+18 十一月 2015 | 19:21:53,272 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:21:53,296 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7711 ) , Type: Android
+18 十一月 2015 | 19:21:58,262 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7711 }
+18 十一月 2015 | 19:21:58,263 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:21:58,265 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7711 ) , SessionLen: 4970, Type: Android
+18 十一月 2015 | 19:21:58,265 | WARN  | SFSWorker:Ext:1 | extensions.filter.SFSExtensionFilterChain |     | Exception in FilterChain execution:java.lang.NullPointerException --- Filter: SynchronousControl, Event: { USER_DISCONNECT, Params: [DISCONNECTION_REASON, ZONE, JOINED_ROOMS, PLAYER_IDS_BY_ROOM, USER] }, Ext: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
+18 十一月 2015 | 19:22:20,063 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7719 } on Server port: 9933 <---> 7719
+18 十一月 2015 | 19:22:20,145 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:22:58,944 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7719 }
+18 十一月 2015 | 19:22:58,945 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:23:01,691 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7729 } on Server port: 9933 <---> 7729
+18 十一月 2015 | 19:23:01,763 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:23:17,876 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7729 }
+18 十一月 2015 | 19:23:17,877 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:23:23,064 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7737 } on Server port: 9933 <---> 7737
+18 十一月 2015 | 19:23:23,164 | WARN  | SFSWorker:Ext:2 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:23:40,060 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7737 }
+18 十一月 2015 | 19:23:40,061 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:23:45,785 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:23:45,795 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:23:46,495 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:23:46,529 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:23:46,609 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:23:46,614 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:23:46,634 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:23:46,651 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:23:46,656 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:23:46,734 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:23:46,825 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:23:46,837 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:23:47,038 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:23:47,040 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:23:47,040 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:24:01,771 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7759 } on Server port: 9933 <---> 7759
+18 十一月 2015 | 19:24:01,883 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:24:01,908 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7759 ) , Type: Android
+18 十一月 2015 | 19:24:03,283 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7759 }
+18 十一月 2015 | 19:24:03,284 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:24:03,285 | INFO  | SFSWorker:Sys:2 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7759 ) , SessionLen: 1378, Type: Android
+18 十一月 2015 | 19:24:10,256 | WARN  | SFSWorker:Ext:1 | extensions.filter.SFSExtensionFilterChain |     | Exception in FilterChain execution:java.lang.NullPointerException --- Filter: SynchronousControl, Event: { USER_DISCONNECT, Params: [ZONE, JOINED_ROOMS, USER, DISCONNECTION_REASON, PLAYER_IDS_BY_ROOM] }, Ext: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
+18 十一月 2015 | 19:26:14,557 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:26:14,568 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:26:15,253 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:26:15,286 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:26:15,368 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:26:15,372 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:26:15,394 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:26:15,411 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:26:15,416 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:26:15,491 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:26:15,580 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:26:15,590 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:26:15,805 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:26:15,807 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:26:15,808 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:26:17,440 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7798 } on Server port: 9933 <---> 7798
+18 十一月 2015 | 19:26:17,563 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:26:17,586 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7798 ) , Type: Android
+18 十一月 2015 | 19:26:19,314 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7798 }
+18 十一月 2015 | 19:26:19,315 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:26:19,316 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7798 ) , SessionLen: 1731, Type: Android
+18 十一月 2015 | 19:26:23,326 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7806 } on Server port: 9933 <---> 7806
+18 十一月 2015 | 19:26:23,403 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:26:23,408 | INFO  | pool-3-thread-5 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 1, Priv: 0, Sess: 127.0.0.1:7806 ) , Type: Android
+18 十一月 2015 | 19:26:25,072 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7806 }
+18 十一月 2015 | 19:26:25,073 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:26:25,073 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 1, Priv: 0, Sess: 127.0.0.1:7806 ) , SessionLen: 1665, Type: Android
+18 十一月 2015 | 19:26:30,385 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7813 } on Server port: 9933 <---> 7813
+18 十一月 2015 | 19:26:30,474 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:26:30,481 | INFO  | pool-3-thread-8 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 2, Priv: 0, Sess: 127.0.0.1:7813 ) , Type: Android
+18 十一月 2015 | 19:26:32,272 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7820 } on Server port: 9933 <---> 7820
+18 十一月 2015 | 19:26:32,354 | WARN  | SFSWorker:Ext:1 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:26:32,363 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7813 }
+18 十一月 2015 | 19:26:32,365 | INFO  | SFSWorker:Sys:1 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 2, Priv: 0, Sess: 127.0.0.1:7813 ) , SessionLen: 1883, Type: Android
+18 十一月 2015 | 19:26:55,698 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7820 }
+18 十一月 2015 | 19:26:55,699 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+18 十一月 2015 | 19:28:05,415 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Boot sequence starts...
+18 十一月 2015 | 19:28:05,425 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|   __|   __|   __|  |_  |  |  |  | __  |     |     |_   _|
+|__   |   __|__   |  |  _|-   -|  | __ -|  |  |  |  | | |  
+|_____|__|  |_____|  |___|__|__|  |_____|_____|_____| |_|
+
+18 十一月 2015 | 19:28:06,068 | INFO  | main | v2.core.SFSEventManager |     | AnonymousService-1 initalized
+18 十一月 2015 | 19:28:06,103 | INFO  | main | vfs.impl.DefaultFileReplicator |     | Using "C:\Users\Daemon\AppData\Local\Temp\vfs_cache" as temporary files store.
+18 十一月 2015 | 19:28:06,178 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | License loaded:
+
+===================================
+LICENSE DETAILS
+-----------------------------------
+Type            : Community Edition
+Max users       : 100
+===================================
+
+18 十一月 2015 | 19:28:06,180 | INFO  | main | entities.managers.SFSBannedUserStorage |     | BanUserStorage initialized
+18 十一月 2015 | 19:28:06,194 | INFO  | main | entities.managers.SFSBannedUserManager |     | BanUser data loaded: 0 records.
+18 十一月 2015 | 19:28:06,207 | INFO  | main | smartfoxserver.v2.SmartFoxServer |     | Protocol Type is: BINARY
+18 十一月 2015 | 19:28:06,210 | INFO  | main | v2.config.DefaultConfigLoader |     | Loading: zones\GameServer.zone.xml
+18 十一月 2015 | 19:28:06,250 | INFO  | main | entities.managers.SFSZoneManager |     | 
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ >> Zone: GameServer 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:28:06,325 | INFO  | main | entities.managers.SFSRoomManager |     | Room created: { Zone: --=={{{ AdminZone }}}==-- }, [ Room: AdminRoom, Id: 0, Group: default, isGame: false ]
+18 十一月 2015 | 19:28:06,336 | INFO  | main | v2.core.AdminToolService |     | AdminTool Service started
+18 十一月 2015 | 19:28:06,536 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | Listening Sockets: { 0.0.0.0:9933, (Tcp) } { 127.0.0.1:9933, (Udp) } 
+18 十一月 2015 | 19:28:06,538 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     |  
+ _____ _____ _____    ___ __ __ 
+|   __|   __|   __|  |_  |  |  |
+|__   |   __|__   |  |  _|-   -|
+|_____|__|  |_____|  |___|__|__|                                         
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ 2.9.0 ] 
+
+18 十一月 2015 | 19:28:06,538 | INFO  | SFSWorker:Sys:1 | smartfoxserver.v2.SmartFoxServer |     | SmartFoxServer 2X (2.9.0) READY!
+18 十一月 2015 | 19:28:07,955 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7839 } on Server port: 9933 <---> 7839
+18 十一月 2015 | 19:28:08,060 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:28:08,072 | INFO  | pool-3-thread-2 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7839 ) , Type: Android
+18 十一月 2015 | 19:28:12,097 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7847 } on Server port: 9933 <---> 7847
+18 十一月 2015 | 19:28:12,168 | WARN  | SFSWorker:Ext:1 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:28:12,177 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7839 }
+18 十一月 2015 | 19:28:12,179 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 0, Priv: 0, Sess: 127.0.0.1:7839 ) , SessionLen: 4107, Type: Android
+18 十一月 2015 | 19:28:46,574 | INFO  | Scheduler1-thread-1 | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7847 }
+18 十一月 2015 | 19:29:30,041 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7859 } on Server port: 9933 <---> 7859
+18 十一月 2015 | 19:29:30,128 | WARN  | SFSWorker:Ext:4 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:29:30,131 | INFO  | pool-3-thread-6 | v2.api.SFSApi |     | User login: { Zone: GameServer }, ( User Name: aabb00, Id: 1, Priv: 0, Sess: 127.0.0.1:7859 ) , Type: Android
+18 十一月 2015 | 19:29:35,119 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7866 } on Server port: 9933 <---> 7866
+18 十一月 2015 | 19:29:35,198 | WARN  | SFSWorker:Ext:3 | entities.managers.SFSExtensionManager |     | com.smartfoxserver.v2.exceptions.SFSException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.smartfoxserver.v2.exceptions.SFSException
+Message: *** Null ***
+Description: Error during event handling: com.smartfoxserver.v2.exceptions.SFSException, Listener: { Ext: GameServer, Type: JAVA, Lev: ZONE, { Zone: GameServer }, {} }
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.dc.sfs.filter.sfs.SfsUserRequestFilter.handleServerEvent(SfsUserRequestFilter.java:50)
+com.smartfoxserver.v2.extensions.filter.SFSExtensionFilterChain.runEventInChain(SFSExtensionFilterChain.java:81)
+com.smartfoxserver.v2.extensions.SFSExtension.handleServerEvent(SFSExtension.java:234)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchEvent(SFSExtensionManager.java:769)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.dispatchZoneLevelEvent(SFSExtensionManager.java:690)
+com.smartfoxserver.v2.entities.managers.SFSExtensionManager.handleServerEvent(SFSExtensionManager.java:887)
+com.smartfoxserver.v2.core.SFSEventManager$SFSEventRunner.run(SFSEventManager.java:63)
+java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+java.lang.Thread.run(Unknown Source)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+18 十一月 2015 | 19:29:35,202 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:7859 }
+18 十一月 2015 | 19:29:35,203 | INFO  | SFSWorker:Sys:4 | v2.api.SFSApi |     | User disconnected: { Zone: GameServer }, ( User Name: aabb00, Id: 1, Priv: 0, Sess: 127.0.0.1:7859 ) , SessionLen: 5072, Type: Android
+18 十一月 2015 | 19:29:49,054 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:7866 }
+18 十一月 2015 | 19:29:49,054 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
