@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/QueueThreadMode_V1"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/UserThreadMode_V_0.9.0"/>
 	<classpathentry kind="lib" path="lib/boot.jar"/>
 	<classpathentry kind="lib" path="lib/commons-beanutils-1.7.0.jar"/>
 	<classpathentry kind="lib" path="lib/commons-collections-3.2.1.jar"/>
@@ -92,7 +90,9 @@
 	<classpathentry kind="lib" path="lib/jetty/lib/websocket/websocket-common-9.1.1.v20140108.jar"/>
 	<classpathentry kind="lib" path="lib/jetty/lib/websocket/websocket-server-9.1.1.v20140108.jar"/>
 	<classpathentry kind="lib" path="lib/jetty/lib/websocket/websocket-servlet-9.1.1.v20140108.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/SfsUserThreadMode_V_0.9.0"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/DynamicLogger_V_0.9.0"/>
+	<classpathentry kind="lib" path="userLib/dynamic-logger-0.9.2.jar"/>
+	<classpathentry kind="lib" path="userLib/qtm-1.0.3.jar"/>
+	<classpathentry kind="lib" path="userLib/utm-1.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
