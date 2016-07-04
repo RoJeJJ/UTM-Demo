@@ -1,0 +1,7 @@
+
+针对 1.0.1 版本bug发布的修复包：
+
+建议在具体的项目（sfs或netty）下替换相关的两个jar文件，或升级使用1.0.2.1版本：
+
+dynamic-logger-0.9.2 ==》 dynamic-logger-0.9.4
+qtm-1.0.3 ==》 qtm-1.0.4

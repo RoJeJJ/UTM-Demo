@@ -1,0 +1,42 @@
+21:59:41.312  cmd:login
+              params:{1=1, 2=888888}
+
+21:59:44.326  cmd:netty user disconnect
+
+21:59:44.328  cmd:OnUserDisconectHandler
+
+21:59:44.429  cmd:OnUserDisconectHandler over
+
+22:00:30.422  cmd:login
+              params:{1=1, 2=888888}
+
+22:00:42.576  cmd:HeartbeatHandler
+              params:{1=0}
+
+22:00:52.590  cmd:HeartbeatHandler
+              params:{1=1}
+
+22:01:02.594  cmd:HeartbeatHandler
+              params:{1=2}
+
+22:01:12.602  cmd:HeartbeatHandler
+              params:{1=3}
+
+22:01:22.608  cmd:HeartbeatHandler
+              params:{1=4}
+
+22:01:32.620  cmd:HeartbeatHandler
+              params:{1=5}
+
+22:01:42.628  cmd:HeartbeatHandler
+              params:{1=6}
+
+22:01:52.634  cmd:HeartbeatHandler
+              params:{1=7}
+
+22:01:59.263  cmd:netty user disconnect
+
+22:01:59.263  cmd:OnUserDisconectHandler
+
+22:01:59.372  cmd:OnUserDisconectHandler over
+
